@@ -23,14 +23,16 @@
     - [1.3.4 Implémentation de `get_signature_sound` 🎶](#134-implémentation-de-get_signature_sound-)
     - [1.4 Complétion de la classe `PokemonArena`](#14-complétion-de-la-classe-pokemonarena)
     - [1.5 Création du script principal](#15-création-du-script-principal)
+  - [Remise](#remise)
   - [Barème](#barème)
   - [Annexe: Guide et normes de codage](#annexe-guide-et-normes-de-codage)
+  - [Bon succès à tou(te)s! 🚀](#bon-succès-à-toutes-)
 
-:alarm_clock: Date de remise le Dimanche 26 novembre 23h59
+:alarm_clock: Date de remise le Dimanche 14 avril 23h59
 
 ## Introduction
 
-<p align="justify"> Bienvenue dans ce second projet sur le monde fascinant des Pokémon ! Ce travail pratique vous plonge dans une simulation de combat tour par tour entre Pokémon, en utilisant les concepts de la programmation orientée objet. Alors, êtes-vous prêts à faire partie des meilleurs dresseurs ? </p>
+<p align="justify"> Bienvenue dans ce second projet sur le monde fascinant des Pokémon ! Ce travail pratique vous plonge dans une simulation de combat tour par tour entre Pokémon, en utilisant les concepts de la programmation orientée objet. Êtes-vous prêts à faire partie des meilleurs dresseurs ? </p>
 
 ![Pythonmon](/assets/pythonmon.webp)
 
@@ -44,7 +46,7 @@
 
 Tout d'abord, vous développerez une classe abstraite `Pokemon` pour les caractéristiques communes à tous les Pokémon. Ensuite, vous développerez des sous-classes abstraites `PokemonType` pour trois différents types de Pokémon. Ces classes seront des enfants de la classe `Pokemon` et définiront des caractéristiques communes des Pokémon de ce type. Puis, vous développerez une sous-classe concrète représentant un Pokémon spécifique pour chaque type.
 
-Par la suite, vous compléterez une fonction de la classe `PokemonArena` utilisant le polymorphisme des pokémons pour simuler un combat entre deux Pokémon.
+Par la suite, vous compléterez une fonction de la classe `PokemonArena` utilisant le polymorphisme pour simuler un combat entre deux Pokémon.
 
 Finalement, vous écrirez un simple script principal pour tester le fonctionnement de votre code précédemment écrit.
 
@@ -347,26 +349,32 @@ Vous êtes maintenant prêt à entrer dans l'arène et à vivre l'expérience ul
 
 Il est donc temps de vous diriger vers le fichier [main.py](part2/main.py) et suivre les instructions TODO pour compléter votre aventure. Le combat final vous attend! ⭐️
 
+## Remise
+
+Pour soumettre votre travail, assurez-vous d'abord que tous les tests de votre code passent avec succès. Ensuite, faites un dernier commit de vos changements si nécessaire et faites un `push` sur votre dépôt **GitHub** Classroom.
+
+Il est important de vérifier sur GitHub que vos dernières modifications ont bien été mises en ligne. Aucune étape supplémentaire comme la création d'un fichier zip n'est nécessaire ; votre travail sera évalué directement à partir de votre dépôt GitHub Classroom. Veillez simplement à ce que tout soit à jour avant la date limite de remise.
+
 ## Barème
 
 | Question  | Points  |
 | --------- | ------- |
-| 1.1.1     | 1       |
-| 1.1.2     | 2       |
-| 1.1.3     | 3       |
-| 1.1.4     | 6       |
-| 1.1.5     | 2       |
-| 1.1.6     | 4       |
-| 1.1.7     | 6       |
-| 1.2.1     | 1       |
-| 1.2.2     | 2       |
-| 1.2.3     | 3       |
-| 1.3.1     | 1       |
-| 1.3.2     | 3       |
-| 1.3.3     | 3       |
-| 1.3.4     | 2       |
-| 1.4       | 3       |
-| 1.5       | 5       |
+| 1.1.1     | 2       |
+| 1.1.2     | 4       |
+| 1.1.3     | 6       |
+| 1.1.4     | 12      |
+| 1.1.5     | 4       |
+| 1.1.6     | 8       |
+| 1.1.7     | 12      |
+| 1.2.1     | 2       |
+| 1.2.2     | 4       |
+| 1.2.3     | 8       |
+| 1.3.1     | 2       |
+| 1.3.2     | 6       |
+| 1.3.3     | 6       |
+| 1.3.4     | 8       |
+| 1.4       | 6       |
+| 1.5       | 10      |
 | **Total** | **100** |
 
 ## Annexe: Guide et normes de codage
@@ -375,3 +383,5 @@ Il est donc temps de vous diriger vers le fichier [main.py](part2/main.py) et su
 - [Le plugin Pycharm Pylint](https://plugins.jetbrains.com/plugin/11084-pylint) qui analyse votre code et indique certaines erreurs. Vous avertis aussi si vous ne respectez pas certaines de normes de PEP8.
 - [Quelques indications en français sur PEP8](https://openclassrooms.com/fr/courses/4425111-perfectionnez-vous-en-python/4464230-assimilez-les-bonnes-pratiques-de-la-pep-8)
 - [La documentation PEP8 Officielle](https://www.python.org/dev/peps/pep-0008/)
+
+## Bon succès à tou(te)s! 🚀
