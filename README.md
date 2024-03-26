@@ -34,7 +34,7 @@
 
 <p align="justify"> Bienvenue dans ce second projet sur le monde fascinant des Pokémon ! Ce travail pratique vous plonge dans une simulation de combat tour par tour entre Pokémon, en utilisant les concepts de la programmation orientée objet. Êtes-vous prêts à faire partie des meilleurs dresseurs ? </p>
 
-![Pythonmon](/assets/pythonmon.webp)
+![Pythonmon](/assets/cover.png)
 
 <p align="left"> <i>Crédits: <a href="https://openai.com/blog/dall-e/">DALLE 3</a></i></p>
 
